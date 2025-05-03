@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+body{
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.layout{
+    position: relative;
+    top: 25px;
+    width: 100vh;
+    height: 90vh;
+   box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgb(247, 242, 237);
+}
+.redbox{
+    position: relative;
+    top:0px ;
+    right: 100px;
+    background-color: rgba(148, 14, 14, 0.911);
+    height: 450px;
+    width: 300px;
+    border-radius: 3%;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.whitebox{
+    position: relative;
+    top:350px ;
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    width: 300px;
+    border-radius: 3%;
+}
+
+img{
+    position: relative;
+    right: 50px;
+   bottom: 70px;
+    width: 50vh;
+    height: 50vh;
+
+   
+}
+.icon{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+
+   
+    
+}
+.icon2{
+    position: absolute;
+    top: 10px;
+    left: 250px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;    
+}
+.box1{
+
+    position: relative;
+    top: 25px;
+    left: 30px;
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    width: 40px;
+    border-radius: 3%;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   border: groove ;
+   display: inline-block;
+   gap: 39px;
+}
+
+.box2{
+
+    position: relative;
+    top: 25px;
+    left: 50px;
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    width: 40px;
+    border-radius: 3%;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   border: groove ;
+   display: inline-block;
+
+}
+.box3{
+
+    position: relative;
+    top: 25px;
+    left: 70px;
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    width: 40px;
+    border-radius: 3%;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   border: groove ;
+   display: inline-block;
+}
+.box4{
+
+    position: relative;
+    top: 25px;
+    left: 90px;
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    width: 40px;
+    border-radius: 3%;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   border: groove ;
+   display: inline-block;
+}
+.smallapple1{
+    position: absolute;
+   
+    top: 0px;
+    left: 0px;
+    width: 5vh;
+    height: 5vh;
+
+   
+}
+.smallapple2{
+    position: absolute;
+   
+    top: 0px;
+    left: 0px;
+    width: 5vh;
+    height: 5vh;
+
+   
+}
+
+.smallapple3{
+    position: absolute;
+   
+    top: 0px;
+    left: 0px;
+    width: 5vh;
+    height: 5vh;
+
+   
+}
+.smallapple4{
+    position: absolute;
+   
+    top: 0px;
+    left: 0px;
+    width: 5vh;
+    height: 5vh;
+
+   
+}
+h1{
+    position: absolute;
+    left: 250px;
+    top:60px ;
+    font-size:xx-large;
+    font-family: Arial Black;
+}
+.p{
+    position: absolute;
+    left: 250px;
+    top:110px ;
+    color: rgb(97, 104, 102);
+   
+    
+}
+.p1{
+    position: absolute;
+    left: 250px;
+    top:170px ;
+    font-size:30px;
+    font-family: sans-serif;
+    font-weight: 100px;
+}
+.p2{
+    position: absolute;
+    left: 300px;
+    top:140px ;
+    font-size:60px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100px;
+    color: brown;
+
+}
+.p3{
+    position: absolute;
+    left: 250px;
+    top:220px ;
+    font-size:10px;
+    font-family: sans-serif;
+    font-weight: 100px;
+    color: rgb(97, 104, 102);
+}
+
+.box5{
+
+    position: relative;
+    top: 250px;
+    left: 260px;
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    width: 40px;
+    border-radius: 3%;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   border: groove ;
+   display: inline-block;
+   gap: 39px;
+}
+
+.box6{
+
+    position: relative;
+    top: 250px;
+    left: 280px;
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    width: 40px;
+    border-radius: 3%;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: groove ;
+   display: inline-block;
+
+}
+.box7{
+
+    position: relative;
+    top: 250px;
+    left: 300px;
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    width: 40px;
+    border-radius: 3%;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   border: groove ;
+   display: inline-block;
+}
+.p4{
+    position: absolute;
+    left: 250px;
+    top:320px ;
+    font-size:10px;
+    font-family: sans-serif;
+    font-weight: 100px;
+    color: rgb(97, 104, 102);
+    
+}
+.bulletlist{
+    position: absolute;
+    left: 265px;
+    top:360px ;
+    font-size:15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200px;
+    color: rgb(41, 46, 44);
+  
+}
+
+.button{
+    position: absolute;
+    left: 250px;
+    top:450px ;
+    font-size:20px;
+    color: aliceblue;
+    font-family: sans-serif;
+    font-weight: 100px;
+   background-color:  rgb(143, 4, 11);
+   padding: 15px;
+    border: none;
+   border-radius: 7%;
+   box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+   cursor: pointer;
+}
+.button:hover{
+    background-color: rgb(199, 44, 44);
+}
+                    
